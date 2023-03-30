@@ -4,12 +4,6 @@
 @import url(./styles/footer.css);
 
 
-.cor-texto-placeholder::placeholder{
-   color: #CFD2CF;
-   font-size: .625rem;
-   word-break: break-all;
-   padding: 0 .625rem;
-}
 :root{
    /* header */
    --background-branco-header:#fff;

@@ -12,7 +12,7 @@
    color: var(--cor-titulo-header);
 }
 .header__container{
-   max-width: 800px;
+   max-width: 1440px;
    display: grid;
    grid-template-columns: auto, 1fr;
    margin: 0 auto;   

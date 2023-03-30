@@ -4,7 +4,7 @@
    background-color: var(--footer-background);
 }
 .footer__container{
-   max-width: 800px;
+   max-width: 1440px;
    display: grid;
    grid-template-columns: 15.625rem 6.25rem 6.25rem 11.25rem;
    padding: 3.125rem 5vw;
