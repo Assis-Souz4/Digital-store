@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="maior plataforma de e-comerce do Brasil.">
+   <title>Digital Store</title>
+   <link rel="stylesheet" href="./form-cria-conta-style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header class="header__container">
+      <div class="header__logo">
+         <img src="./src/image/logo-dc.svg" alt="logo digital store">
+         <h1 class="header__titulo">Digital Store</h1>
+      </div>
+   </header>
+
+   <main class="main">
+      <section class="main__conteudo">
+         <h1 class="cria__conta-titulo-principal">Criar Conta</h1>
+         <form action="#" class="form__container">
+
+            <form action="#" class="formulario1">
+               <h2 class="cria__conta-titulo-secundario">Informações Pessoais</h2>
+
+               <label for="nome">Nome Completo *</label>
+               <input type="text" id="nome" name="name" placeholder="insira seu nome completo">
+
+               <label for="cpf">CPF *</label>
+               <input type="number" id="cpf" name="cpf" placeholder="000.000.000-00">
+
+               <label for="cpf">E-mail *</label>
+               <input type="email" id="email" name="email" placeholder="Insira seu E-mail">
+
+               <label for="celular">Celular *</label>
+               <input type="tel" id="celular" name="celular" placeholder="Isisra seu celular">
+            </form>
+
+            <form action="#" class="formulario2">
+               <h2 class="cria__conta-titulo-secundario">Informações de Entrega</h2>
+               <label for="endereco">Endereço *</label>
+               <input type="text" id="endereco" name="endereco" placeholder="Isisra seu endereço">
+
+               <label for="Bairro">Bairro *</label>
+               <input type="text" id="bairro" name="bairro" placeholder="Insira seu bairro">
+
+               <label for="Cidade">Cidade *</label>
+               <input type="text" id="cidade" name="codade" placeholder="Insira sua cidade">
+
+               <label for="cep">CEP *</label>
+               <input type="number" id="cep" name="cep" placeholder="Insira seu cep">
+
+               <label for="complemento">Complemento</label>
+               <textarea name="complemento" id="complemento" cols="30" rows="1"></textarea>
+            </form>
+            <div class="box__termos">
+               <label for="termos" class="label__termos">
+                  Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.
+                  <input type="checkbox" id="termos" name="termos" checked class="check">
+                  <span class="checkmark"></span>
+               </label>
+            </div>
+         </form>
+         <button type="submit">Criar Conta</button>
+      </section>
+   </main>
+</body>
+
+</html>

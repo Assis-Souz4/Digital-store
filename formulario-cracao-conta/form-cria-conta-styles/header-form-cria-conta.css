@@ -1,0 +1,40 @@
+.header__logo{
+   display: inline-block;
+   max-width: 100%;
+   display: flex;
+   align-items: center;
+   gap: .125rem;
+}
+.header__titulo{
+   font-size: 1.5rem;
+   font-weight: 600;
+   display: inline-block;
+   color: var(--cor-titulo-header);
+}
+.header__container{
+   max-width: 1440px;
+   display: grid;
+   grid-template-columns: auto, 1fr;
+   margin: 0 auto;   
+   padding: .625rem 5vw;
+   align-items: center;
+   
+}
+/* ###################800px####################### */
+@media screen and (max-width: 800px) {
+   .header__logo img{
+      width: 1.5625rem;
+   }
+   .header__titulo{
+      font-size: 1.5625rem;
+   }
+ }
+ /* ###################420px####################### */
+ @media screen and (max-width: 420px){
+   .header__titulo{
+      font-size: 1.5rem;
+   }
+   .header__logo img{
+      width: 1.5rem;
+   }
+ }
