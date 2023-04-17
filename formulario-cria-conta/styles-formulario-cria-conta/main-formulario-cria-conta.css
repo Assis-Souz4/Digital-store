@@ -164,9 +164,12 @@ input {
     max-width: 80%;
   }
   #btn-send {
-    max-width: 80%;
+   margin: 0 5%;
   }
   .formulario {
     margin: 0 5%;
   }
+  .container {
+   margin: 0 10px;
+ }
 }
