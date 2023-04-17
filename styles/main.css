@@ -59,11 +59,11 @@ a {
   flex-wrap: wrap;
   outline: none;
 }
-.cor-texto-placeholder::placeholder{
-   color: #CFD2CF;
-   font-size: 1rem;
-   word-break: break-all;
-   padding: 0 .625rem;
+.cor-texto-placeholder::placeholder {
+  color: #cfd2cf;
+  font-size: 1rem;
+  word-break: break-all;
+  padding: 0 0.625rem;
 }
 .formulario__esqueceu-senha a {
   display: block;
@@ -143,7 +143,7 @@ a {
     right: -100px;
   }
   .main__background {
-   padding-bottom: 10vh;
+    padding-bottom: 10vh;
   }
 }
 /* ###################1200px####################### */
@@ -185,7 +185,7 @@ a {
 /* ###################900px####################### */
 @media screen and (max-width: 900px) {
   .tenis__esquerdo > img {
-   width: 70%;
+    width: 70%;
     left: -15px;
   }
   .tenis__direito > img {

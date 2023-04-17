@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="maior plataforma de e-comerce do Brasil.">
+   <title>Digital Store</title>
+   <link rel="stylesheet" href="./style-formulario-cria-conta.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<li></li>
+
+<body>
+   <header class="header__container">
+      <div class="header__logo">
+         <img src="./src/image/logo-dc.svg" alt="logo digital store">
+         <h1 class="header__titulo">Digital Store</h1>
+      </div>
+   </header>
+   <!-- MAIN -->
+   <main class="main__container">
+
+      <div class="titulo__form">
+         <h1>Criar Conta</h1>
+      </div>
+
+      <form action="/" class="formulario">
+
+         <h2 class="titulo__info-pessoais">Informações Pessoais</h2>
+         <hr>
+         <label for="name" class="item-label">Nome Completo *</label>
+         <input type="text" class="item-input" id="name" placeholder="Insira o nome completo">
+         <label for="cpf" class="item-label">CPF *</label>
+         <input type="number" class="item-input" id="cpf" placeholder="Insira seu CPF">
+         <label for="email" class="item-label">E-mail *</label>
+         <input type="email" class="item-input" id="email" placeholder="Insira seu e-mail">
+         <label for="tel" class="item-label">Celular *</label>
+         <input type="tel" class="item-input" id="tel" placeholder="Insira seu celular">
+
+         <h2 class="titulo__info-entrega">Informações de Entrega</h2>
+         <hr>
+         <label for="endereco" class="item-label">Endereço *</label>
+         <input type="text" class="item-input" id="endereco" placeholder="Insira seu endereço">
+         <label for="bairro" class="item-label">Bairro *</label>
+         <input type="text" class="item-input" id="bairro" placeholder="Insira seu bairro">
+         <label for="cidade" class="item-label">Cidade *</label>
+         <input type="text" class="item-input" id="cidade" placeholder="Insira sua cidade">
+         <label for="cep" class="item-label">CEP *</label>
+         <input type="number" class="item-input" id="cep" placeholder="Isira seu CEP">
+         <label for="complemento" class="item-label">Complemento</label>
+         <textarea name="complemento" class="item-input" id="complemento" cols="10" rows="1"></textarea>
+
+      </form>
+
+
+      <label class="container">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.
+         <input type="checkbox" checked="checked">
+         <span class="checkmark"></span>
+      </label>
+      <button type="submit" id="btn-send">Criar Conta</button>
+
+   </main>
+
+   <footer class="footer">
+      <section class="footer__container">
+         <div class="footer__box-conteudo">
+            <div class="footer__titulo">
+               <img src="./src/image/logo-preto-branco.svg" alt="logo em monocromatico">
+               <h2>Digital Store</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <div class="footer__redes-sociais">
+               <a href="#"><img src="./src/image/f.png" alt="facebook"></a>
+               <a href="#"><img src="./src/image/instagram-branco.png" alt="instagram"></a>
+               <a href="#"><img src="./src/image/twitter-branco.png" alt="twitter"></a>
+            </div>
+         </div>
+         <div class="footer__box-informacao">
+            <ul class="footer__lista">
+               <li class="footer__lista-titulo">Informação</li>
+               <li class="footer__lista-item"><a href="#">Sobre Drip Store</a></li>
+               <li class="footer__lista-item"><a href="#">Segurança</a></li>
+               <li class="footer__lista-item"><a href="#">Wishlist</a></li>
+               <li class="footer__lista-item"><a href="#">Blog</a></li>
+               <li class="footer__lista-item"><a href="#">trabalhe conosco</a></li>
+               <li class="footer__lista-item"><a href="#">Meus Pedidos</a></li>
+            </ul>
+         </div>
+         <div class="footer__box-categorias">
+            <ul class="footer__lista">
+               <li class="footer__lista-titulo">Categorias</li>
+               <li class="footer__lista-item"><a href="#">Camisetas</a></li>
+               <li class="footer__lista-item"><a href="#">Calças</a></li>
+               <li class="footer__lista-item"><a href="#">Bonés</a></li>
+               <li class="footer__lista-item"><a href="#">Headphones</a></li>
+               <li class="footer__lista-item"><a href="#">Tênis</a></li>
+            </ul>
+         </div>
+         <div class="footer__box-contato">
+            <ul class="footer__lista">
+               <li class="footer__lista-titulo">Contato</li>
+               <li class="footer__lista-item"><a href="#">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</a></li>
+               <li class="footer__lista-item"><a href="tel: +558530513411">(85) 3051-3411</a></li>
+            </ul>
+         </div>
+      </section>
+      <div class="linha">
+         <p>©Assis_Dev - 2023</p>
+      </div>
+   </footer>
+
+</html>

@@ -1,0 +1,20 @@
+@import url(./styles-formulario-cria-conta/reset-formulario-cria-conta.css);
+@import url(./styles-formulario-cria-conta/header-formulario-cria-conta.css);
+@import url(./styles-formulario-cria-conta/main-formulario-cria-conta.css);
+@import url(./styles-formulario-cria-conta/footer-formulario-cria-conta.css);
+
+
+:root{
+   /* header */
+   --background-branco-header:#fff;
+   --cor-titulo-header:#C92071;
+
+   /* main */
+   --main-background:#E5E5E5;
+   --info-pessoais-background:#fff;
+
+   /* footer */
+   --footer-background:#1F1F1F;
+   --cor-titulo-footer:#fff;
+   --cor-texto-footer:#fff;
+}
