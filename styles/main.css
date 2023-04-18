@@ -145,6 +145,10 @@ a {
   .main__background {
     padding-bottom: 10vh;
   }
+  .main__background {
+    max-width: 100vw;
+    max-height: 1000vh;
+  }
 }
 /* ###################1200px####################### */
 @media screen and (max-width: 1200px) {
@@ -200,11 +204,9 @@ a {
 }
 /* ###################896px####################### */
 @media screen and (max-width: 896px) {
-
-.main__background {
-  max-height: 1000vh;
-}
-
+  .main__background {
+    max-height: 1000vh;
+  }
 }
 /* ###################800px####################### */
 @media screen and (max-width: 800px) {
