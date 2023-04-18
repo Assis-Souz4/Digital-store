@@ -198,6 +198,14 @@ a {
     padding-bottom: 5vh;
   }
 }
+/* ###################896px####################### */
+@media screen and (max-width: 896px) {
+
+.main__background {
+  max-height: 1000vh;
+}
+
+}
 /* ###################800px####################### */
 @media screen and (max-width: 800px) {
   .tenis__esquerdo > img {
