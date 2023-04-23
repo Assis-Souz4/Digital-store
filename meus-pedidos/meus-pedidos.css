@@ -1,0 +1,25 @@
+@import url(./meus-pedidos-styles/reset.css);
+@import url(./meus-pedidos-styles/header.css);
+@import url(./meus-pedidos-styles/main.css);
+@import url(./meus-pedidos-styles/footer.css);
+
+
+:root{
+   /* header */
+   --background-branco-header:#fff;
+   --cor-titulo-header:#C92071;
+
+   /* main */
+   --cor-titulo-main:#1F1F1F;
+   --cor-texto-main:#474747;
+   --cor-background-login:#fff;
+   --cor-botao:#C92071;
+   --cor-botao-hover:#d33280;
+   --cor-botao-texto:#fff;
+   --background-input:#EFF5F5;
+
+   /* footer */
+   --footer-background:#1F1F1F;
+   --cor-titulo-footer:#fff;
+   --cor-texto-footer:#fff;
+}

@@ -117,7 +117,7 @@ hr {
 /* Exibir o ícone quando selecionado */
 .container input:checked ~ .checkmark:after {
   display: block;
-}
+}d
 /* ###################600px####################### */
 @media screen and (max-width: 600px) {
   .formulario {

@@ -1,0 +1,93 @@
+.header__logo {
+  display: block;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.125rem;
+}
+.header__titulo {
+  font-size: 2rem;
+  font-weight: 600;
+  display: inline-block;
+  color: var(--cor-titulo-header);
+}
+.header__container {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.625rem 5vw;
+  gap: 20px;
+  justify-content: space-between;
+}
+.barra__pesquisa {
+  padding: 10px;
+  min-width: 50%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #e5e5e5;
+  margin-left: 20px;
+}
+.barra__pesquisa::before{
+   content: '';
+   font-size: 20px;
+   width: 50px;
+   background-color: #c92071;
+
+}
+nav {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.625rem 5vw;
+}
+.menu__meus-pedidos {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.menu__item a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #474747;
+}
+.menu__item a:hover {
+  color: #c92071;
+  font-weight: 700;
+  transition: 0.2s;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #c92071;
+}
+.menu__meus-pedidos li {
+  padding: 10px;
+}
+.usuario__compras > a{
+   margin-left: 10px;
+}
+.nome__usuario {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* ###################800px####################### */
+@media screen and (max-width: 800px) {
+  .header__logo img {
+    width: 1.5625rem;
+  }
+  .header__titulo {
+    font-size: 1.5625rem;
+  }
+}
+/* ###################420px####################### */
+@media screen and (max-width: 420px) {
+  .header__titulo {
+    font-size: 1.5rem;
+  }
+  .header__logo img {
+    width: 1.5rem;
+  }
+}

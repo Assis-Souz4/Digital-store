@@ -7,62 +7,42 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="maior plataforma de e-comerce do Brasil.">
    <title>Digital Store</title>
-   <link rel="stylesheet" href="./style-formulario-cria-conta.css">
+   <link rel="stylesheet" href="./meus-pedidos.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <header class="header__container">
-      <div class="header__logo">
-         <img src="./src/image/logo-dc.svg" alt="logo digital store">
-         <h1 class="header__titulo">Digital Store</h1>
-      </div>
+   <header>
+
+      <section class="header__container">
+         <div class="header__logo">
+            <img src="./src/image/logo-dc.svg" alt="logo digital store">
+            <h1 class="header__titulo">Digital Store</h1>
+            <input type="search" class="barra__pesquisa">
+         </div>
+       
+         <div class="usuario__compras">
+            <a href="#"><img src="./src/image/carrinho.png" alt="#"></a>
+            <a href="#"><img src="./src/image/usuario.svg" alt="#"></a>
+            <span class="nome__usuario">Olá Assis</span>
+         </div>
+      </section>
+      <nav>
+         <ul class="menu__meus-pedidos">
+            <li class="menu__item"><a href="#">Home</a></li>
+            <li class="menu__item"><a href="#">Produtos</a></li>
+            <li class="menu__item"><a href="#">Categorias</a></li>
+            <li class="menu__item"><a href="#">Meus Pedidos</a></li>
+         </ul>
+      </nav>
+
    </header>
    <!-- MAIN -->
-   <main class="main__container">
-
-      <div class="titulo__form">
-         <h1>Criar Conta</h1>
-      </div>
-
-      <form action="/" class="formulario">
-
-         <h2 class="titulo__info-pessoais">Informações Pessoais</h2>
-         <hr>
-         <label for="name" class="item-label">Nome Completo *</label>
-         <input type="text" class="item-input" id="name" placeholder="Insira o nome completo">
-         <label for="cpf" class="item-label">CPF *</label>
-         <input type="number" class="item-input" id="cpf" placeholder="Insira seu CPF">
-         <label for="email" class="item-label">E-mail *</label>
-         <input type="email" class="item-input" id="email" placeholder="Insira seu e-mail">
-         <label for="tel" class="item-label">Celular *</label>
-         <input type="tel" class="item-input" id="tel" placeholder="Insira seu celular">
-
-         <h2 class="titulo__info-entrega">Informações de Entrega</h2>
-         <hr>
-         <label for="endereco" class="item-label">Endereço *</label>
-         <input type="text" class="item-input" id="endereco" placeholder="Insira seu endereço">
-         <label for="bairro" class="item-label">Bairro *</label>
-         <input type="text" class="item-input" id="bairro" placeholder="Insira seu bairro">
-         <label for="cidade" class="item-label">Cidade *</label>
-         <input type="text" class="item-input" id="cidade" placeholder="Insira sua cidade">
-         <label for="cep" class="item-label">CEP *</label>
-         <input type="number" class="item-input" id="cep" placeholder="Isira seu CEP">
-         <label for="complemento" class="item-label">Complemento</label>
-         <textarea name="complemento" class="item-input" id="complemento" cols="10" rows="1"></textarea>
-
-      </form>
-
-      <label class="container">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.
-         <input type="checkbox" checked="checked">
-         <span class="checkmark"></span>
-      </label>
-      <button type="submit" id="btn-send">Criar Conta</button>
+   <main>
 
    </main>
-
    <footer class="footer">
       <section class="footer__container">
          <div class="footer__box-conteudo">
